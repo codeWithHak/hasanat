@@ -30,7 +30,7 @@ export function Navbar() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent">
+    <nav className="absolute top-0 left-0 right-0 z-50 bg-transparent">
       <div className="container mx-auto px-4 lg:w-[90%] xl:w-[80%]">
         <div
           className={`flex items-center justify-between h-20 ${poppinsFont.className}`}
